@@ -1,0 +1,108 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Vehicles /> renders without crashing 1`] = `
+<DocumentFragment>
+  <div
+    class="error"
+  >
+    <img
+      alt="Loading"
+      class="loading"
+      data-testid="loading"
+      src="Loading.svg"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<Vehicles /> shows data if fetch success 1`] = `
+<DocumentFragment>
+  <div
+    class="wrapper"
+  >
+    <div
+      class="title"
+    >
+      Vehicles
+    </div>
+    <div
+      class="scrollWrapper"
+    >
+      <div
+        class="vehicle"
+      >
+        <div
+          class="vehicleName"
+        >
+          Ford Fiesta
+        </div>
+        <div>
+          Body : Limousine
+        </div>
+        <div>
+          Fuel : Diesel
+        </div>
+        <div>
+          Engine Power PS : 54
+        </div>
+        <div>
+          Engine Power KW : 40
+        </div>
+        <div>
+          Engine Capacity : 1119
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<Vehicles /> shows empty wrapper if make value is falsy 1`] = `
+<DocumentFragment>
+  <div
+    class="error"
+    data-testid="empty-wrapper"
+  />
+</DocumentFragment>
+`;
+
+exports[`<Vehicles /> shows laoding icon if fetch reject 1`] = `
+<DocumentFragment>
+  <div
+    class="error"
+  >
+    <img
+      alt="Loading"
+      class="loading"
+      data-testid="loading"
+      src="Loading.svg"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<Vehicles /> shows loading icon in loading stage 1`] = `
+<DocumentFragment>
+  <div
+    class="error"
+  >
+    <img
+      alt="Loading"
+      class="loading"
+      data-testid="loading"
+      src="Loading.svg"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<Vehicles /> shows message if fetch success with empty array 1`] = `
+<DocumentFragment>
+  <div
+    class="error"
+    data-testid="no-data"
+  >
+    No data found
+  </div>
+</DocumentFragment>
+`;

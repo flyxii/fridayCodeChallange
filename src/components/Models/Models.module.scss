@@ -1,0 +1,20 @@
+@use 'libs/styles/dataWrapper.scss' with (
+  $width: 25%,
+);
+@import "libs/styles/base.scss";
+
+.model{
+  @extend %bodyText;
+  color: 333;
+  padding: 16px 16px;
+  cursor: pointer;
+
+  &:hover{
+    background-color:  $lightGrey;
+  }
+
+  &.selected{
+    background-color: $purple;
+    color: #fff;
+  }
+}

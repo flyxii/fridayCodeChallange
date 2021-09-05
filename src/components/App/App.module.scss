@@ -1,0 +1,34 @@
+@import "libs/styles/base.scss";
+
+.wrapper {
+  width: 100%;
+}
+
+.logo{
+  @extend %pagePadding;
+  height: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #fff;
+}
+
+.selectionWrapper{
+  @extend %pagePadding;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 80px;
+
+  @media only screen and (min-width: $md) {
+    height: calc(100vh - 80px);
+    margin-bottom: 0px;
+  }
+}
+
+.cfa{
+  @extend %H1;
+  width: 100%;
+  margin-top: 56px;
+}

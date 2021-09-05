@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap");
+
+// viewport size
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+$xxl: 1600px;
+
+//Color Palette
+$base: #F8F6FC;
+$grey: #eee;
+$lightGrey: rgb(247, 247, 249);
+$purple: rgb(126, 87, 194);
+
+%pagePadding{
+  box-sizing: border-box;
+  padding: 0em 2em;
+
+  @media only screen and (min-width: $md) {
+    padding: 0em 4em;
+  }
+}
+
+%H1{
+  font-family: "Open Sans", serif;
+  font-size: 2em;
+}
+
+%H4{
+  font-family: "Open Sans", serif;
+  font-size: 1.4em;
+  font-weight: 600;
+}
+
+%bodyText{
+  font-family: "Open Sans", serif;
+  font-size: 0.9em;
+}
+
+%dataWrapper{
+  width: 100%;
+  height: 400px;
+  background-color: #fff;
+  border: 1px solid $grey;
+  box-sizing: border-box;
+  margin-top: 24px;
+
+  @media only screen and (min-width: $md) {
+    width: 50%;
+    height: 75%;
+    margin-top: 0px;
+  }
+}

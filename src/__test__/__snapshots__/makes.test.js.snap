@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Makes /> shows data if fetch success 1`] = `
+<DocumentFragment>
+  <div
+    class="wrapper"
+  >
+    <div
+      class="title"
+    >
+      Makes
+    </div>
+    <div
+      class="scrollWrapper"
+    >
+      <div
+        class="make"
+      >
+        BMW
+      </div>
+      <div
+        class="make"
+      >
+        Ford
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<Makes /> shows laoding icon if fetch reject 1`] = `
+<DocumentFragment>
+  <div
+    class="error"
+  >
+    <img
+      alt="Loading"
+      class="loading"
+      data-testid="loading"
+      src="Loading.svg"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<Makes /> shows loading icon in loading stage 1`] = `
+<DocumentFragment>
+  <div
+    class="error"
+  >
+    <img
+      alt="Loading"
+      class="loading"
+      data-testid="loading"
+      src="Loading.svg"
+    />
+  </div>
+</DocumentFragment>
+`;

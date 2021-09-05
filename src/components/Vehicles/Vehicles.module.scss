@@ -1,0 +1,16 @@
+@use 'libs/styles/dataWrapper.scss' with (
+  $width: 50%,
+);
+@import "libs/styles/base.scss";
+
+.vehicle{
+  @extend %bodyText;
+  padding: 16px;
+  background-color: $lightGrey;
+  margin-bottom: 24px;
+}
+
+.vehicleName{
+  @extend %H4;
+  margin-bottom: 12px;
+}
